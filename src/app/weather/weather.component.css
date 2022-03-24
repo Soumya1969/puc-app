@@ -1,0 +1,26 @@
+#main{
+    margin: auto;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
+}
+
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #6600FF;
+	text-align: center;
+}
+
+#sub{
+    margin: auto;
+    width: 95%;
+    border: 3px solid;
+    padding: 10px;
+
+}
+
+.sub-td {
+    border: 1px solid black;
+  }
+  

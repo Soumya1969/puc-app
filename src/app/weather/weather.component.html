@@ -1,0 +1,84 @@
+
+<div class="card" style="width: 79rem; margin: auto; height:35rem; background-color: aquamarine;">
+
+    <h3>Weather</h3>
+    <table id="main">
+        <tr>
+            <td>{{WeatherData.currentConditions.dayhour}}</td>
+        
+            <td>Temp: {{WeatherData.currentConditions.temp.c}}&#8451;</td>
+            
+            <td>Humidity: {{WeatherData.currentConditions.humidity}}</td>
+        </tr>
+        
+
+        
+        <td>Wind Speed: {{WeatherData.currentConditions.wind.km}}</td>
+        
+        <td>cloud: {{WeatherData.currentConditions.comment}}</td>
+
+    </table>
+    <br>
+
+    <table id="sub">
+        <td  class="sub-td">
+            <div>Day: {{WeatherData.next_days[0].day}}</div>
+            <div>Min. Temp: {{WeatherData.next_days[0].min_temp.c}}&#8451;</div>
+            <div>Max. Temp: {{WeatherData.next_days[0].max_temp.c}}&#8451;</div>
+            <div>Cloud: {{WeatherData.next_days[0].comment}}</div>
+        </td>
+        <td class="sub-td">
+            <div>Day: {{WeatherData.next_days[1].day}}</div>
+            <div>Min. Temp: {{WeatherData.next_days[1].min_temp.c}}&#8451;</div>
+            <div>Max. Temp: {{WeatherData.next_days[1].max_temp.c}}&#8451;</div>
+            <div>Cloud: {{WeatherData.next_days[1].comment}}</div>
+        </td>
+        <td class="sub-td">
+            <div>Day: {{WeatherData.next_days[2].day}}</div>
+            <div>Min. Temp: {{WeatherData.next_days[2].min_temp.c}}&#8451;</div>
+            <div>Max. Temp: {{WeatherData.next_days[2].max_temp.c}}&#8451;</div>
+            <div>Cloud: {{WeatherData.next_days[2].comment}}</div>
+        </td>
+        <td class="sub-td">
+            <div>Day: {{WeatherData.next_days[3].day}}</div>
+            <div>Min. Temp: {{WeatherData.next_days[3].min_temp.c}}&#8451;</div>
+            <div>Max. Temp: {{WeatherData.next_days[3].max_temp.c}}&#8451;</div>
+            <div>Cloud: {{WeatherData.next_days[3].comment}}</div>
+        </td>
+        <td class="sub-td">
+            <div>Day: {{WeatherData.next_days[4].day}}</div>
+            <div>Min. Temp: {{WeatherData.next_days[4].min_temp.c}}&#8451;</div>
+            <div>Max. Temp: {{WeatherData.next_days[4].max_temp.c}}&#8451;</div>
+            <div>Cloud: {{WeatherData.next_days[4].comment}}</div>
+        </td>
+        <td class="sub-td">
+            <div>Day: {{WeatherData.next_days[5].day}}</div>
+            <div>Min. Temp: {{WeatherData.next_days[5].min_temp.c}}&#8451;</div>
+            <div>Max. Temp: {{WeatherData.next_days[5].max_temp.c}}&#8451;</div>
+            <div>Cloud: {{WeatherData.next_days[5].comment}}</div>
+        </td>
+        <td class="sub-td">
+            <div>Day: {{WeatherData.next_days[6].day}}</div>
+            <div>Min. Temp: {{WeatherData.next_days[6].min_temp.c}}&#8451;</div>
+            <div>Max. Temp: {{WeatherData.next_days[6].max_temp.c}}&#8451;</div>
+            <div>Cloud: {{WeatherData.next_days[6].comment}}</div>
+        </td>
+        <td class="sub-td">
+            <div>Day: {{WeatherData.next_days[7].day}}</div>
+            <div>Min. Temp: {{WeatherData.next_days[7].min_temp.c}}&#8451;</div>
+            <div>Max. Temp: {{WeatherData.next_days[7].max_temp.c}}&#8451;</div>
+            <div>Cloud: {{WeatherData.next_days[7].comment}}</div>
+        </td>
+
+    </table>
+
+
+</div>
+
+
+
+
+
+
+
+

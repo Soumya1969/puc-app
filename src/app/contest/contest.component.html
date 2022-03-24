@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="row">
+        <div class="search-contest">
+            <input type="text" name="search" [(ngModel)]="name" placeholder="search by Name">
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Url</th>
+                    <th>Start-Time</th>
+                    <th>End-Time</th>
+                    <th>Duration</th>
+                    <th>Site</th>
+                    <th>In_24_Hours</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let contest1 of contest| filter: name:'name' " >
+                    <td>{{contest1.name}}</td>
+                    <td>{{contest1.url}}</td>
+                    <td>{{contest1.start_time}}</td>
+                    <td>{{contest1.end_time}}</td>
+                    <td>{{contest1.duration}}</td>
+                    <td>{{contest1.site}}</td>
+                    <td>{{contest1.in_24_hours}}</td>
+                    <td>{{contest1.status}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<table class="card">
+    <td class="card-body" *ngFor="let contest of contestData " >
+            <b>NAME: </b>{{contest.name}}<br>
+            <b>URL:</b>{{contest.url}}<br>
+            <b>START-TIME:</b>{{contest.start_time}}<br>
+            <b>END-TIME:</b>{{contest.end_time}}<br>
+            <b>DURATION:</b>{{contest.duration}}<br>
+            <b>SITE:</b>{{contest.site}}<br>
+            <b>IN_24_HOURS:</b>{{contest.in_24_hours}}<br>
+            <b>STATUS:</b>{{contest.status}}<br>
+    </td>
+</table>-->
+
+
